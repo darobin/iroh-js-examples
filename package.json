@@ -1,0 +1,37 @@
+{
+  "name": "iroh-js-examples",
+  "type": "module",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Playing with Iroh JS",
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darobin/iroh-js-examples.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  },
+  "dependencies": {
+    "@automerge/automerge": "^2.2.8",
+    "@automerge/automerge-repo": "^1.2.1",
+    "@number0/iroh": "^0.23.0"
+  }
+}
